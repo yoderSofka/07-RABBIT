@@ -5,7 +5,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copia el JAR en la imagen de Docker
-COPY log_service.jar /app/app.jar
+COPY log_service.jar /app/log_service.jar
 
 # Expone el puerto que tu aplicación utiliza
 EXPOSE 8080
