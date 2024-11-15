@@ -8,7 +8,7 @@ WORKDIR /app
 COPY log_service.jar /app/log_service.jar
 
 # Expone el puerto que tu aplicación utiliza
-EXPOSE 8080
+EXPOSE 8081
 
 # Ejecuta la aplicación
 ENTRYPOINT ["java", "-jar", "/app/log_service.jar"]
